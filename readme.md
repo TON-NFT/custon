@@ -7,7 +7,7 @@ The **v4R2** standard is used. There is no such thing as «continue from the sam
 
 ### How to use
 - Make sure you are using the **16** version of Node.js: **node -v**
-- Install project dependencies: **npm i**
+- Install project dependencies: **npm install**
 - Set wallet search options in **config/setup.js**
 - Run script: **npm run dev**
 
@@ -25,6 +25,7 @@ The **v4R2** standard is used. There is no such thing as «continue from the sam
 
 ### Donations
 Donations will help to work on improvement of this project!
+
 Feel free to drop a few 💎 to the following address, created with custon 😇
 
 > EQB2yw0hcNzI_lLRGM_I6VW7LPY7S1qA0E50pLaFzRpn-TON
