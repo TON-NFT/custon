@@ -1,0 +1,26 @@
+{
+  "name": "ton-wallet",
+  "version": "1.0.0",
+  "description": "Get nice ton wallet address using node.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "telegram": "node src/bot.js",
+    "no-config-update": "cd config && git update-index --assume-unchanged $(git ls-files | tr '\n' ' ') && cd ../",
+    "upload-with-config": "git commit -a -m 'Default config was updated' --no-verify && git push",
+    "postinstall": "node src/patch-version.js"
+  },
+  "pre-commit": ["no-config-update"],
+  "keywords": [],
+  "author": "Yablonev & Merik",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.8.5",
+    "tonweb": "0.0.43",
+    "tonweb-mnemonic": "^1.0.1"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
