@@ -24,8 +24,6 @@ The **v4R2** standard is used. There is no such thing as «continue from the sam
 - Restart script: **Ctrl + C**, then **npm run dev**
 
 ### Donations
-Donations will help to work on improvement of this project!
-
-Feel free to drop a few 💎 to the following address, created with custon 😇
+Donations will help to work on improvement of this project! Feel free to drop a few 💎 to the following address, created with custon 😇
 
 > EQB2yw0hcNzI_lLRGM_I6VW7LPY7S1qA0E50pLaFzRpn-TON
