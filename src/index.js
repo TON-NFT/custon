@@ -17,7 +17,7 @@ async function createTonWallet() {
   const { publicKey, secretKey } = keyPair
   const wallet = tonweb.wallet.create({ publicKey })
   const addr = await wallet.getAddress()
-  const address = addr.toString(true, true, true, false)
+  const address = addr.toString(true, true, false, false)
 
   if (showEveryWallet) {
     console.log(address)
